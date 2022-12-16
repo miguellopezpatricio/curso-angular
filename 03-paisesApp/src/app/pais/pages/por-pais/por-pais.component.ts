@@ -8,34 +8,41 @@ import { PaisService } from '../../services/pais.service';
 })
 export class PorPaisComponent {
 
- termino: string =''
- hayError: boolean = false
- paises: Country[] = []
+  termino: string = ''
+  hayError: boolean = false
+  paises: Country[] = []
 
- constructor(private paisService:PaisService){
+  constructor(private paisService: PaisService) {
 
- }
+  }
 
- buscar(termino:string){
+  buscar(termino: string) {
 
-  this.hayError = false
-  this.termino = termino
-  
+    this.hayError = false
+    this.termino = termino
 
-  this.paisService.buscarPais(this.termino)
-  .subscribe((paises) => {
-    console.log(paises)
-    this.paises = paises
-    
-  },(err)=>{
-    this.hayError = true
-    this.paises = []
-    console.log('error')
-    console.info(err)
 
-  })
+    this.paisService.buscarPais(this.termino)
+      .subscribe((paises) => {
+        console.log(paises)
+        this.paises = paises
 
- }
+      }, (err) => {
+        this.hayError = true
+        this.paises = []
+        console.log('error')
+        console.info(err)
+
+      })
+
+  }
+
+  sugerencias(termino: string) {
+
+    this.hayError = false
+
+    // TODO: crear sugerencias
+  }
 
 
 
