@@ -2,21 +2,17 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { ContadorModule } from './contador/contador.module';
-import { DbzModule } from './dbz/dbz.module';
-import { HeroesModule } from './heroes/heroes.module';
-
+import { PaisModule } from './pais/pais.module';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    ContadorModule,
-    HeroesModule,
-    DbzModule
-
+    PaisModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
