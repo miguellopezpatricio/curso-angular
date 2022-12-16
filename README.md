@@ -1,4 +1,4 @@
-### CURSO ANGULAR
+<h3 align="center">CURSO ANGULAR</h3>
 
 <p align="center">
   <img src="/assets/angular.png" alt="logo Angular">
@@ -27,7 +27,7 @@ Creación de módulo con CLI: `ng g m [carpeta]nombreMódulo[opciones]`
 
 - [Documentación oficial de Angular](angular.io)
 - [Curso Angular de Fernando Herrera en Udemy](https://www.udemy.com/course/angular-fernando-herrera/)
-- API países:[restcountries.com](https://restcountries.com/)
+- API países: [restcountries.com](https://restcountries.com/)
 - [Librería css animada](https://animate.style/)
 - [Bootstrap](https://getbootstrap.com/)
-- [netlify](https://app.netlify.com/)
+- Plataforma para subir proyectos online: [netlify](https://app.netlify.com/)
