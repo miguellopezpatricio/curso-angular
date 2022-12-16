@@ -8,6 +8,10 @@
 
 Nuevo proyecto desde el CLI: `ng new nombreProyecto`
 
+<p align="center">
+  <img src="/assets/estructura.png" alt="estructura proyecto Angular">
+</p>
+
 2. gifsApp: búsqueda de imágenes. Acceso a API. 
 
  - NOVEDADES: 
