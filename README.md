@@ -8,14 +8,20 @@
 
 Nuevo proyecto desde el CLI: `ng new nombreProyecto`
 
-2. GifsApp: búsqueda de imágenes. Acceso a API. 
+2. gifsApp: búsqueda de imágenes. Acceso a API. 
 
  - NOVEDADES: 
-    * Creación de módulos y componentes hijos.
+    * Creación de módulos y componentes hijos. Los módulos sirven para agrupar componentes relacionados y así organizar mejor el proyecto. Para no saturar el componente principal `app.component`
     * Creación de interfaces.
+    * Creación de servicios para aplicar la inyección de dependencias.
 
 Creación de componente con CLI: `ng g c [carpeta/]nombreComponente[opciones]`
 
 Creación de módulo con CLI: `ng g m [carpeta]nombreMódulo[opciones]`
 
 3. paisesApp
+
+
+# Enlaces de interés
+- [Documentación oficial de Angular](angular.io)
+- Curso Angular de Fernando Herrera en Udemy
