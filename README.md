@@ -14,6 +14,7 @@ Nuevo proyecto desde el CLI: `ng new nombreProyecto`
     * Creación de módulos y componentes hijos. Los módulos sirven para agrupar componentes relacionados y así organizar mejor el proyecto. Para no saturar el componente principal `app.component`
     * Creación de interfaces.
     * Creación de servicios para aplicar la inyección de dependencias.
+    * Ejemplo básico de subir a producción un proyecto con [netlify](https://app.netlify.com/)
 
 Creación de componente con CLI: `ng g c [carpeta/]nombreComponente[opciones]`
 
@@ -22,6 +23,11 @@ Creación de módulo con CLI: `ng g m [carpeta]nombreMódulo[opciones]`
 3. paisesApp
 
 
-# Enlaces de interés
+### Enlaces de interés
+
 - [Documentación oficial de Angular](angular.io)
-- Curso Angular de Fernando Herrera en Udemy
+- [Curso Angular de Fernando Herrera en Udemy](https://www.udemy.com/course/angular-fernando-herrera/)
+- API países:[restcountries.com](https://restcountries.com/)
+- [Librería css animada](https://animate.style/)
+- [Bootstrap](https://getbootstrap.com/)
+- [netlify](https://app.netlify.com/)
