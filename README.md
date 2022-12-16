@@ -1,4 +1,4 @@
-<h3 align="center">CURSO ANGULAR</h3>
+<h1 align="center">CURSO ANGULAR</h1>
 
 <p align="center">
   <img src="/assets/angular.png" alt="logo Angular">
@@ -17,7 +17,7 @@ Nuevo proyecto desde el CLI: `ng new nombreProyecto`
 
 2. **gifsApp** búsqueda de imágenes. Acceso a API. 
 
- - NOVEDADES: 
+ - *NOVEDADES:* 
     * Creación de módulos y componentes hijos. Los módulos sirven para agrupar componentes relacionados y así organizar mejor el proyecto. Para no saturar el componente principal `app.component`
     * Creación de interfaces.
     * Creación de servicios para aplicar la inyección de dependencias.
@@ -30,7 +30,7 @@ Creación de módulo con CLI: `ng g m [carpeta]nombreMódulo[opciones]`
 
 3. **paisesApp** conexión a api con información de países.
 
-- NOVEDADES: Configuración de rutas.
+- *NOVEDADES:* Configuración de rutas.
 
 <p align="center">
   <img src="/assets/rutas.png" alt="archivo estructura rutas">
