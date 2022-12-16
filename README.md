@@ -1,7 +1,7 @@
 ### CURSO ANGULAR
 
 <p align="center">
-  <img" src="/assets/angular.png" alt="logo Angular">
+  <img src="/assets/angular.png" alt="logo Angular">
 </p>
 
 1. Bases Angular. Nuevo proyecto y estudio de estructura. Creación primeros componentes.
