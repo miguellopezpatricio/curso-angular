@@ -14,6 +14,12 @@ import { OrdenarComponent } from './pages/ordenar/ordenar.component';
     BasicosComponent,
     OrdenarComponent
   ],
+  exports:[
+    NumerosComponent,
+    NoComunesComponent,
+    BasicosComponent,
+    OrdenarComponent
+  ],
   imports: [
     CommonModule
   ]
