@@ -39,7 +39,16 @@ Creación de módulo con CLI: `ng g m [carpeta]nombreMódulo[opciones]`
 
 4. **pipeApp** 
 
-- *NOVEDADES:* Uso de pipes en Angular
+- *NOVEDADES:* Uso de pipes en Angular. 
+
+Uso de libería PrimeNG.
+
+
+**NOTA** Para instalar la librería PrimeNG se necesita indicar la versión: `sudo npm install primeng@15.0.0 --save`
+
+Instala el paquete de iconos: `npm install primeicons --save`
+
+
 
 
 # Enlaces de interés
@@ -49,4 +58,5 @@ Creación de módulo con CLI: `ng g m [carpeta]nombreMódulo[opciones]`
 - API países: [restcountries.com](https://restcountries.com/)
 - [Librería css animada](https://animate.style/)
 - [Bootstrap](https://getbootstrap.com/)
+- Librería gráfica: [PrimeNG](https://www.primefaces.org/primeng/)
 - Plataforma para subir proyectos online: [netlify](https://app.netlify.com/)
