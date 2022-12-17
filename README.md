@@ -37,6 +37,10 @@ Creación de módulo con CLI: `ng g m [carpeta]nombreMódulo[opciones]`
 </p>
 
 
+4. **pipeApp** 
+
+- *NOVEDADES:* Uso de pipes en Angular
+
 
 # Enlaces de interés
 
