@@ -52,10 +52,10 @@ Instala el paquete de iconos: `npm install primeicons --save`
 
 5. **heroesApp**
 
-*TO-DO -> NOVEDADES:*
+*NOVEDADES:*
 
-- Uso de lazyload 
-- Uso de Angular Material
+- Uso de lazyload en la creación de rutas. Se crea un archivo de rutas básico y archivos de rutas hijas.
+- Uso de Angular Material.
 
 
 # Enlaces de interés
@@ -64,6 +64,7 @@ Instala el paquete de iconos: `npm install primeicons --save`
 - [Curso Angular de Fernando Herrera en Udemy](https://www.udemy.com/course/angular-fernando-herrera/)
 - API países: [restcountries.com](https://restcountries.com/)
 - [Librería css animada](https://animate.style/)
+- [Angular Material](https://material.angular.io/)
 - [Bootstrap](https://getbootstrap.com/)
 - Librería gráfica: [PrimeNG](https://www.primefaces.org/primeng/)
 - Plataforma para subir proyectos online: [netlify](https://app.netlify.com/)
