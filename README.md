@@ -50,7 +50,12 @@ Creación de módulo con CLI: `ng g m [carpeta]nombreMódulo[opciones]`
 
 Instala el paquete de iconos: `npm install primeicons --save`
 
+5. **heroesApp**
 
+*TO-DO -> NOVEDADES:*
+
+- Uso de lazyload 
+- Uso de Angular Material
 
 
 # Enlaces de interés
