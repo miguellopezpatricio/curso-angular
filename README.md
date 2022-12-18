@@ -39,9 +39,11 @@ Creación de módulo con CLI: `ng g m [carpeta]nombreMódulo[opciones]`
 
 4. **pipeApp** 
 
-- *NOVEDADES:* Uso de pipes en Angular. 
+*NOVEDADES:* 
 
-Uso de libería PrimeNG.
+- Uso de pipes en Angular. 
+
+- Uso de libería PrimeNG.
 
 
 **NOTA** Para instalar la librería PrimeNG se necesita indicar la versión: `sudo npm install primeng@15.0.0 --save`
