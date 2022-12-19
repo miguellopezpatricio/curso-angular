@@ -64,7 +64,8 @@ Instala el paquete de iconos: `npm install primeicons --save`
 
 # Enlaces de interés
 
-- [Documentación oficial de Angular](angular.io)
+- Documentación oficial de [Angular](angular.io)
+- Documentación oficial de [TypeScript](https://www.typescriptlang.org/)
 - [Curso Angular de Fernando Herrera en Udemy](https://www.udemy.com/course/angular-fernando-herrera/)
 - API países: [restcountries.com](https://restcountries.com/)
 - [Librería css animada](https://animate.style/)
