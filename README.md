@@ -57,6 +57,10 @@ Instala el paquete de iconos: `npm install primeicons --save`
 - Uso de lazyload en la creación de rutas. Se crea un archivo de rutas básico y archivos de rutas hijas.
 - Uso de Angular Material. NOTA: Se debe de indicar en el package.json que necesitamos la versión 12 por problemas de compatibilidad con componentes que desaparecen en versiones recientes.
 
+*NOTAS:*
+- Debido a problemas de compatibilidad con el servidor de pruebas 'json-server' la app se debe desarrollar en Angular v12 o inferior.
+- Lo mismo sucede con Material Design. Se debe usar la versión 12. En versiones posteriores desaparecen muchos elementos descritos en el curso.
+- Instalar json-server de manera global npm i -g json-server (https://www.npmjs.com/package/json-server)
 
 # Enlaces de interés
 
