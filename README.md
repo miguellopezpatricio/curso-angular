@@ -55,7 +55,7 @@ Instala el paquete de iconos: `npm install primeicons --save`
 *NOVEDADES:*
 
 - Uso de lazyload en la creación de rutas. Se crea un archivo de rutas básico y archivos de rutas hijas.
-- Uso de Angular Material.
+- Uso de Angular Material. NOTA: Se debe de indicar en el package.json que necesitamos la versión 12 por problemas de compatibilidad con componentes que desaparecen en versiones recientes.
 
 
 # Enlaces de interés
@@ -65,6 +65,8 @@ Instala el paquete de iconos: `npm install primeicons --save`
 - API países: [restcountries.com](https://restcountries.com/)
 - [Librería css animada](https://animate.style/)
 - [Angular Material](https://material.angular.io/)
+- [Material Icons](https://fonts.google.com/icons?selected=Material+Icons)
 - [Bootstrap](https://getbootstrap.com/)
 - Librería gráfica: [PrimeNG](https://www.primefaces.org/primeng/)
+- Pruebas de API: [Postman](https://www.postman.com/)
 - Plataforma para subir proyectos online: [netlify](https://app.netlify.com/)

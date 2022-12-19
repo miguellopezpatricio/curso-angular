@@ -1,9 +1,16 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-agregar',
-  templateUrl: './agregar.component.html'
+  templateUrl: './agregar.component.html',
+  styles: [
+  ]
 })
-export class AgregarComponent {
+export class AgregarComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
 
 }
