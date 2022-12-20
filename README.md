@@ -62,8 +62,16 @@ Instala el paquete de iconos: `npm install primeicons --save`
 - Lo mismo sucede con Material Design. Se debe usar la versión 12. En versiones posteriores desaparecen muchos elementos descritos en el curso.
 - Instalar json-server de manera global npm i -g json-server (https://www.npmjs.com/package/json-server)
 
-6.**formulariosApp**
 
+6. **formulariosApp** Formularios por template y reactivos. *Pendiente de finalizar tarea: formularios reactivos*
+
+
+7. **TO-DO** 
+
+
+8. **lifecycle** Hooks del ciclo de vida.
+
+9. **mapasApp** Trabajando con mapas en Angular. Uso de Mapbox
 
 # Enlaces de interés
 
@@ -78,3 +86,4 @@ Instala el paquete de iconos: `npm install primeicons --save`
 - Librería gráfica: [PrimeNG](https://www.primefaces.org/primeng/)
 - Pruebas de API: [Postman](https://www.postman.com/)
 - Plataforma para subir proyectos online: [netlify](https://app.netlify.com/)
+- [Mapbox](mapbox.com)
