@@ -73,6 +73,12 @@ Instala el paquete de iconos: `npm install primeicons --save`
 
 9. **mapasApp** Trabajando con mapas en Angular. Uso de Mapbox
 
+12. **authApp** Desarrollo de aplicación para probar autenticación con JWT front/back
+
+  * auth-server: aplicación backend javascript.
+  * Uso de MongoDB + Mongo Compass + Mongo Atlas.
+  * authApp: aplicación frontend Angular.
+
 # Enlaces de interés
 
 - Documentación oficial de [Angular](angular.io)
@@ -87,3 +93,4 @@ Instala el paquete de iconos: `npm install primeicons --save`
 - Pruebas de API: [Postman](https://www.postman.com/)
 - Plataforma para subir proyectos online: [netlify](https://app.netlify.com/)
 - [Mapbox](mapbox.com)
+- [MongoDB: Atlas](mongodb.com)
