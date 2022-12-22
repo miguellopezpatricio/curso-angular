@@ -94,3 +94,4 @@ Instala el paquete de iconos: `npm install primeicons --save`
 - Plataforma para subir proyectos online: [netlify](https://app.netlify.com/)
 - [Mapbox](mapbox.com)
 - [MongoDB: Atlas](mongodb.com)
+- [Web oficial JWT](https://jwt.io/)
