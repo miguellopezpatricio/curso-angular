@@ -95,3 +95,4 @@ Instala el paquete de iconos: `npm install primeicons --save`
 - [Mapbox](mapbox.com)
 - [MongoDB: Atlas](mongodb.com)
 - [Web oficial JWT](https://jwt.io/)
+- [SweetAlert2](https://sweetalert2.github.io/)
