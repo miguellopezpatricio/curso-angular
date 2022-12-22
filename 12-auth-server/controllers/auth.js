@@ -4,6 +4,7 @@ const {response} = require('express')
 const { validationResult } = require('express-validator')
 const Usuario = require('../models/Usuario')
 const bcrypt = require('bcryptjs')
+const { generarJWT } = require('../helpers/jwt')
 
 
 const crearUsario = async ( req, res = response ) => {
@@ -32,7 +33,7 @@ const crearUsario = async ( req, res = response ) => {
 
 
         // Generar el JWT
-
+        const token = await generarJWT(dbUser.id, name)
 
         // Crear usuario de BBDD
         await dbUser.save()
@@ -44,7 +45,8 @@ const crearUsario = async ( req, res = response ) => {
             ok: true,
             uid: dbUser.id,
             name,
-            msg: 'Usuario creado con éxito'
+            msg: 'Usuario creado con éxito',
+            token
         })
 
 
@@ -65,24 +67,66 @@ const crearUsario = async ( req, res = response ) => {
 
 }
 
-const loginUsuario = (req, res = response ) => {
+const loginUsuario = async (req, res = response ) => {
 
     const { email, password} = req.body
-    console.log(email, password)
+    //      console.log(email, password)
+
+    try{
+
+        const dbUser = await Usuario.findOne({email})
+
+        if(!dbUser){
+            return res.status(400).json({
+                ok: false,
+                msg: 'El correo no existe'
+            })
+        }
+
+        // confirmar si el password hace match
+        const validPassword = bcrypt.compareSync(password, dbUser.password)
+
+        if(!validPassword){
+            return res.status(400).json({
+                ok: false,
+                msg: 'El password no existe'
+            })
+        }
+
+        // Generar el JWT
+        const token = await generarJWT(dbUser.id, dbUser.name)
+
+        // respuesta del servicio
+        return res.json({
+            ok:true,
+            uid: dbUser.id,
+            name: dbUser.name,
+            token
+        })
+
+    }catch(error){
+        console.log(error)
+        return res.status(500).json({
+            ok:false,
+            msg:'ERROR: Hable con el admin'
+        })
+    }
 
 
-    return res.json({
-        ok:true,
-        msg:'Login usuario /'
-    })
 
 }
 
-const revalidarToken = ( req, res = response ) => {
+const revalidarToken = async ( req, res = response ) => {
+
+        // Generar el JWT
+        const token = await generarJWT(uid, name)  
+    const { uid, name} = req
 
     return res.json({
         ok:true,
-        msg:'Validar usuario /renew'
+        uid,
+        name
+    
     })
 
 }
