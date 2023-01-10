@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 import { AuthService } from '../../services/auth.service';
 
 import Swal from 'sweetalert2';
+import { compileNgModule } from '@angular/compiler';
 
 @Component({
   selector: 'app-login',
@@ -19,6 +20,8 @@ export class LoginComponent {
   constructor(private fb: FormBuilder, private router: Router, private authService: AuthService){}
 
   login(){
+
+
     console.log(this.miFormulario.value)
     console.log(this.miFormulario.valid)
 
@@ -33,7 +36,7 @@ export class LoginComponent {
 
         } else {
           Swal.fire('Error',ok, 'error')
-        }
+        }      
 
       })
     
